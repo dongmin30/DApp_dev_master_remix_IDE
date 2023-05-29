@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "x",
+						"type": "string"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"exercises-solidity.sol": "nameStorage"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"exercises-solidity.sol": {
+			"keccak256": "0x2c1725bbeade8059636aea24655e8ddf9a731d8ea4d50cbf2dbb26412a6f87a3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://753b4a66d6a89775798f98b09bc835ff993fc27e804165363ad36ca2a4473060",
+				"dweb:/ipfs/QmPuSVKKSC11WiDWmzoCTwwnYnX2K6gHwdw7gajLNXQwGG"
+			]
+		}
+	},
+	"version": 1
+}
